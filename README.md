@@ -36,7 +36,7 @@ In this way I download the App called `IP camera` in Appstore, bc it gives you t
 
 The only different with above is the gst command:
 
->AWS_ACCESS_KEY_ID=* AWS_SECRET_ACCESS_KEY=* AWS_DEFAULT_REGION=* gst-launch-1.0 rtspsrc location=*(your RTSP address) ! rtph264depay ! h264parse ! kvssink stream-name=* storage-size=512
+>AWS_ACCESS_KEY_ID=* AWS_SECRET_ACCESS_KEY=* AWS_DEFAULT_REGION=* gst-launch-1.0 rtspsrc location=*(your RTSP address) ! rtph264depay ! h264parse ! kvssink stream-name=$ storage-size=512
 
 
 
